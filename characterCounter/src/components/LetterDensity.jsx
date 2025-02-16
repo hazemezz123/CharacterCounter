@@ -2,7 +2,7 @@ import React from "react";
 
 const LetterDensity = ({
   letterDensityData,
-  displayLeStters,
+  displayLetters,
   ShowAllLetters,
   setShowAllLetters,
   isDarkMode,
