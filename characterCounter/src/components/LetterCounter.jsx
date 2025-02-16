@@ -108,6 +108,7 @@ const LetterCounter = ({ isDarkMode }) => {
         </div>
       </div>
       <LetterDensity
+        isDarkMode={isDarkMode}
         letterDensityData={processedLetterDensity} // Pass the already processed array
         displayLetters={displayLetters} // Pass the correct letter slice
         ShowAllLetters={ShowAllLetters}
